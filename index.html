@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Navigation Menu</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">Brand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#home"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#services"><i class="fas fa-cogs"></i> Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#about"><i class="fas fa-info-circle"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="section">Home Content</section>
+    <section id="services" class="section">Services Content</section>
+    <section id="about" class="section">About Content</section>
+    <section id="contact" class="section">Contact Content</section>
+  </main>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
