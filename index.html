@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Navigation Menu</title>
+  <title>My Website</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Font Awesome -->
@@ -14,7 +14,7 @@
 <body>
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#">Brand</a>
+      <a class="navbar-brand text-white" href="#">Noha Farrag</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,10 +24,10 @@
             <a class="nav-link text-white" href="#home"><i class="fas fa-home"></i> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#services"><i class="fas fa-cogs"></i> Services</a>
+            <a class="nav-link text-white" href="#about"><i class="fas fa-info-circle"></i> About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#about"><i class="fas fa-info-circle"></i> About</a>
+            <a class="nav-link text-white" href="#services"><i class="fas fa-cogs"></i> Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
@@ -38,10 +38,49 @@
   </nav>
 
   <main>
-    <section id="home" class="section">Home Content</section>
-    <section id="services" class="section">Services Content</section>
-    <section id="about" class="section">About Content</section>
-    <section id="contact" class="section">Contact Content</section>
+    <!-- Home section -->
+    <section id="home" class="section">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-lg-6">
+            <h1 class="text-white">Welcome to Our Website</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptates.</p> -->
+            <div class="main-intro" id="top">
+              <h1>Welcome <br>to my <br>website</h1>
+              <!-- <p class="col-lg-6">
+                "I am a Front-end web developer with a passion for creating modern, user-friendly websites."
+              </p> -->
+              <!-- <a href="#">MY WORK</a> -->
+            </div>
+          </div>
+        </div>    
+    </section>
+    <!-- About section -->
+    <section id="about" class="section">
+      <div class="about-me-container">
+        <div class="image-section">
+            <img src="images/p.jpg" alt="Profile Picture">
+        </div>
+        <div class="info-section">
+            <h1>Noha Farrag</h1>
+            <h2>Front-end developer with a passion for creating modern, user-friendly websites</h2>
+            <p><strong>Phone:</strong> 123-456-7890</p>
+            <p><strong>Email:</strong> info@mysite.com</p>
+            <p><strong>Address:</strong> 500 Terry Francine Street<br>San Francisco, CA 94158</p>
+            <p><strong>Date of Birth:</strong> March 14th, 1984</p>
+            <a href="#">MY WORK</a>
+        </div>
+    </div>
+    </section>
+    <footer>
+      <div class="social-icons">
+          <a href="#" class="social-icon linkedin">in</a>
+          <a href="#" class="social-icon facebook">f</a>
+          <a href="#" class="social-icon instagram">i</a>
+      </div>
+  </footer>
+    <!-- <section id="services" class="section">Services Content</section>
+    <section id="contact" class="section">Contact Content</section> -->
   </main>
 
   <!-- Bootstrap JS -->
